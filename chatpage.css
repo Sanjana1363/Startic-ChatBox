@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background:
+      conic-gradient(from 75deg,#c887c6   15deg ,#a0499d 0 30deg ,#0000 0 180deg, #a0499d 0 195deg,#c887c6 0 210deg,#0000 0) calc(0.5*32px) calc(0.5*32px/0.577),
+      conic-gradient(#c887c6   30deg ,#e8cde7 0 75deg, #c887c6 0 90deg, #a0499d 0 105deg, #e8cde7 0 150deg, #a0499d 0 180deg,#e8cde7 0 210deg, #c887c6 0 256deg, #a0499d 0 270deg,#c887c6 0 286deg, #a0499d 0 331deg,#e8cde7 0);
+background-size: 32px calc(32px/0.577);
+
+    height: 100vh; /* Ensure it covers full screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+    background: rgba(132,173,241,0.6);
+    -webkit-backdrop-filter: blur(22px);
+    backdrop-filter: blur(22px);
+    border: 1px solid rgba(132,173,241,0.3);
+    width: 600px;
+    height: 550px;
+    border-radius: 12px; /* Smooth edges */
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Card shadow effect */
+}
+
+.person-name {
+    background-color: #323f4b;
+    text-align: center;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.messages-container {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+.message-text {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 12px 16px;
+    max-width: 70%;
+   
+   
+}
+
+.message-received {
+    background-color: #52606d;
+    border-radius: 8px 8px 8px 0;
+    margin-left: auto;
+}
+
+.message-sent {
+    background-color: #47a3f3;
+    border-radius: 8px 8px 0 8px;
+    margin-right: auto;
+}
